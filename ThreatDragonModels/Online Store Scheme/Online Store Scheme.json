@@ -39,8 +39,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "016cbe86-6bfb-4772-8445-9a0b8fb576f4",
             "zIndex": -1,
+            "id": "016cbe86-6bfb-4772-8445-9a0b8fb576f4",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Internet",
@@ -75,8 +75,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "201c916e-de8b-4410-b41a-9ae8914bb96e",
             "zIndex": -1,
+            "id": "201c916e-de8b-4410-b41a-9ae8914bb96e",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "DMZ",
@@ -109,8 +109,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "5df934a1-6feb-4bf4-8852-c5b99fd36e24",
             "zIndex": -1,
+            "id": "5df934a1-6feb-4bf4-8852-c5b99fd36e24",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Internal Network\n",
