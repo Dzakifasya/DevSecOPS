@@ -4,7 +4,7 @@
   "released_at": "2026-09-23",
   "summary": {
     "title": "Online Store Scheme",
-    "owner": "Firmansyah Dzakwan Arifien",
+    "owner": "Dzaki Fasya",
     "description": "Aplikasi Toko Online - Threat Model\n\nSistem e-commerce dengan React Frontend, Node.js REST API, MySQL Database, \nRedis Cache, Email Service, dan Payment Gateway Integration (Midtrans/Xendit).\n\nKOMPONEN UTAMA:\n- 3 External Actors: Customer, Admin, Payment Gateway\n- 4 Processes: React Frontend, Node.js API, Email Service, Auth Module\n- 2 Data Stores: MySQL Database (AES-256 encrypted), Redis Cache (TTL 1800s)\n- 10 Data Flows dengan protokol HTTPS TLS 1.2+, SSL/TLS, SMTP TLS\n- 3 Trust Boundaries: Internet, DMZ, Internal Network\n\nSECURITY REQUIREMENTS:\n1. Authentication: JWT-based dengan RBAC, MFA untuk admin, session timeout 15 menit\n2. Data Protection: AES-256 encryption at rest, TLS 1.2+ in transit, bcrypt password hashing\n3. Payment Security: HMAC-SHA256 webhook verification, server-side confirmation, idempotency key\n4. Audit Logging: Comprehensive logging untuk semua actions, immutable records, 1-year retention\n5. Input Protection: Parameterized queries, input validation, output encoding, CSP headers\n\nIDENTIFIED THREATS: 9 total (5 CRITICAL, 3 HIGH, 1 MEDIUM)\nMITIGATIONS: 52 total (20 CRITICAL, 25 HIGH, 7 MEDIUM priority)\n\nThreat Model dibuat: 2026-09-22 | Owner: Security Team - JIS",
     "id": 0
   },
